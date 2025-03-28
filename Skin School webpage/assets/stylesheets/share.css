@@ -1,0 +1,178 @@
+html body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Style for body of the page */
+body {
+  font-family: "Raleway", Cormorant Garamond;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Header Style */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  background-color: #fdf2e9;
+}
+
+/* Main header Title */
+h1 {
+  font-size: 25px;
+  color: #e5757e;
+}
+
+header > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navigation Menu */
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin: 0 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #0f3062;
+}
+
+nav ul li a:hover {
+  color: #e5757e;
+  transition: color 0.3s ease;
+}
+
+/* Search Bar */
+.search {
+  margin-left: auto;
+}
+
+.search input[type="text"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Main Section */
+#main {
+  text-align: center;
+  color: #e5757e;
+}
+
+/* Main Section - Heading */
+#main > h1 {
+  font-size: 32px;
+  margin-bottom: 0;
+  font-weight: lighter;
+}
+
+#main > h2 {
+  font-size: 32px;
+  margin-top: 0;
+  font-weight: lighter;
+}
+
+/* Footer Section */
+footer {
+  background-color: #fdf2e9;
+  text-align: left;
+  padding: 0 30px;
+  margin-top: 150px;
+  width: 100%;
+  height: 60px;
+}
+
+footer p {
+  font-size: 14px;
+  float: left;
+  color: #0f3062;
+}
+
+footer p {
+  font-size: 14px;
+  color: #0f3062;
+  text-align: center;
+}
+
+/* Form card style for Login Form */
+.form-card {
+  font-weight: lighter;
+  color: #0f3062;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 25%;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #fdf2e9;
+  border: 1px black;
+  border-radius: 10px;
+  box-shadow: 5px 5px #fde9ea;
+}
+.form-card > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-card > form > button {
+  font-size: 11px;
+  background-color: #ffc0cb;
+  color: #000000;
+  font-weight: bold;
+  border: #e5757e;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 20px auto 0 auto;
+  width: 70%;
+  height: 10%;
+  padding-top: 5px;
+}
+
+/* Form card style for Booking Form */
+.form-card1 {
+  font-weight: lighter;
+  color: #0f3062;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 20%;
+  margin-left:410px;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #fdf2e9;
+  border: 1px black;
+  border-radius: 10px;
+  box-shadow: 5px 5px #fde9ea;
+}
+.form-card1 > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-card1 > form > button {
+  font-size: 11px;
+  background-color: #ffc0cb;
+  color: #000000;
+  font-weight: bold;
+  border: #e5757e;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 20px auto 0 auto;
+  width: 70%;
+  height: 10%;
+  padding-top: 5px;
+}
+

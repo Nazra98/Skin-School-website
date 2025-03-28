@@ -1,0 +1,62 @@
+/* Main Section Style */
+.booking-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 350px;
+  margin: 0 20px;
+}
+
+/* Style for Booking Card */
+.booking-img > img {
+  width: 500px;
+  height: 100%;
+  border-radius: 5px;
+  margin-left: 30px;
+  margin-right: 100px;
+}
+
+/* Booking information Style */
+.booking-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking-info  > * {
+  margin-top: 30px;
+}
+
+.booking-info > h3 {
+  font-size: 23px;
+  color: #e5757e;
+  font-weight: bold;
+}
+
+.booking-info > p {
+  font-size: 16px;
+  color: #e5757e;
+  font-weight: lighter;
+}
+
+/* Icon Style */
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Button Style */
+.booking-info > a {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #ffc0cb;
+  align-content: center;
+  color: #0f3062;
+  border: #e5757e;
+  border-radius: 5px;
+  padding: 5px 10px;
+  height: 10%;
+  padding-top: 5px;
+  text-align: center;
+}

@@ -1,0 +1,13 @@
+h1 {
+    font-size: 25px;
+    color: #e5757e;
+  }
+
+p {
+    font-size:22px;
+    color: #0f3062;
+    margin-left:20px;
+    background-color: #fdf2e9;
+    box-shadow: 5px 5px#fde9ea;
+    border: 1px black;
+  }

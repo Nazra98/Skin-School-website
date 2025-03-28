@@ -1,0 +1,55 @@
+/* Main Section */
+/* Grid container for booking cards */
+.booking-cards {
+  display: grid;
+  gap: 35px;
+  grid-template-columns: 50% 50%;
+}
+
+/* Style for booking cards */
+.booking-card {
+  display: flex;
+  flex-direction: row;
+  height: 350px;
+  margin: 0 20px;
+}
+
+/* Style for booking card Images 
+width 450px height 80%*/
+.booking-img > img {
+  width: 450px; 
+  height: 80%;
+  border-radius: 5px;
+  margin-left: 30px;
+  margin-right: 100px;
+}
+
+/* Heading in booking info */
+.booking-info > h3 {
+  margin: 0;
+  font-size: 23px;
+  color: #e5757e;
+  font-weight: bold;
+}
+
+/* Paragraph in booking info */
+.booking-info > p {
+  font-size: 16px;
+  color: #e5757e;
+  font-weight: lighter;
+  padding: 0%;
+}
+
+.booking-info > a {
+  font-size: 10px;
+  background-color: #ffc0cb;
+  align-content: center;
+  color: #0f3062;
+  border: #e5757e;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-top: 30px;
+  width: 90%;
+  height: 10%;
+  padding-top: 5px;
+}

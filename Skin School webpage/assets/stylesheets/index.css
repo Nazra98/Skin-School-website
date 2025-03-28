@@ -1,0 +1,346 @@
+/* Main Section */
+#horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+}
+
+/* Left Section - Testimonials */
+#left {
+  width: 20%;
+  height: 400px;
+  margin: 5px 20px;
+  border: 1px black;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #fdf2e9;
+  box-shadow: 5px 5px#fde9ea;
+  margin-left: 100px;
+  margin-right: 40px;
+}
+
+/* Image 1 Testimonials */
+.image1 {
+  max-width: 40%;
+  height: 20%;
+  border: 1px #fdf2e9;
+  border-radius: 10px;
+}
+
+/* Image2 Testimonials */
+.image2 {
+  max-width: 40%;
+  height: 20%;
+  border: 1px #fdf2e9;
+  border-radius: 10px;
+}
+
+/* Style for headings - Left section */
+#left > h3 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #0f3062;
+  padding: 10px;
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+/* Style for paragraphs - Left section */
+#left > p {
+  font-size: 16px;
+  color: #0f3062;
+  position: relative;
+  bottom: 5px;
+}
+
+/* Middle section - About Us */
+#middle {
+  width: 30%;
+  height: 450px;
+  margin: 5px 20px;
+  border: 1px black;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #fdf2e9;
+  box-shadow: 5px 5px#fde9ea;
+}
+
+/* Style for headings - Middle section */
+#middle > h3 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #0f3062;
+  padding: 5px;
+  margin-bottom: 0;
+  margin-top: auto;
+}
+
+/* Style for headings - Middle section */
+#middle > h4 {
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
+  color: #0f3062;
+  padding: 5px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+/* Style for paragraphs - Middle section */
+#middle > p {
+  font-size: 16px;
+  color: #0f3062;
+  text-align: left;
+  margin-top: auto;
+  padding: 5px;
+}
+
+#middle > h4 {
+  font-weight: bold;
+  color: #0f3062;
+  padding: 5px;
+  margin-bottom: 0;
+  text-align: left;
+  margin-top: 5px;
+  bottom: 5px;
+}
+
+#middle > ul {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #0f3062;
+  list-style-type: circle;
+  text-align: left;
+  padding-left: 0px;
+  position: relative;
+  bottom: 20px;
+}
+
+/* Right section (Upcoming Events) */
+#right {
+  width: 20%;
+  height: 400px;
+  margin: 5px 20px;
+  border: 1px black;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #fdf2e9;
+  box-shadow: 5px 5px #fde9ea;
+  margin-right: 150px;
+}
+
+/* Style for headings - Right section */
+#right > h3 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #0f3062;
+  padding: 5px;
+  margin-bottom: 0;
+  margin-top: auto;
+}
+
+/* Style for paragraphs - Right section */
+#right > p {
+  font-size: 16px;
+  color: #0f3062;
+  text-align: left;
+  margin-top: 0;
+  padding: 5px;
+}
+
+/* Style for buttons - Right section */
+#right > button {
+  font-size: 13px;
+  background-color: #fdf2e9;
+  text-align: center;
+  color: #0f3062;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+/* Style for headings - Featured section */
+#featured > h2 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  color: #0f3062;
+  padding: 5px;
+  margin-bottom: 0;
+  margin-top: auto;
+}
+
+/* Style for paragraphs - Featured section */
+#featured > p {
+  font-size: 18px;
+  text-align: center;
+  font-weight: normal;
+  color: #0f3062;
+  padding: 5px;
+  margin-bottom: 0;
+  margin-top: auto;
+}
+
+#Sessions {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#K-Beauty {
+  display: flex;
+  flex-direction: column;
+}
+
+#K-Beauty > h4 {
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold;
+  color: #0f3062;
+  padding: 5px;
+  margin-bottom: 0;
+  margin-top: auto;
+  margin-left: 8%;
+}
+
+#K-Beauty > a {
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold;
+  color: #0f3062;
+  padding: 10px;
+  margin-bottom: 0;
+  margin-top: auto;
+  margin-left: 8%;
+}
+
+#Aging-Skin {
+  display: flex;
+  flex-direction: column;
+}
+
+#Aging-Skin > h4 {
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold;
+  color: #0f3062;
+  padding: 5px;
+  margin-bottom: 0;
+  margin-top: auto;
+  margin-left: 8%;
+}
+
+#Aging-Skin > a {
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold;
+  color: #0f3062;
+  padding: 10px;
+  margin-bottom: 0;
+  margin-top: auto;
+  margin-left: 8%;
+}
+
+#Skincare-Products > h4 {
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold;
+  color: #0f3062;
+  padding: 5px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  margin-left: 8%;
+}
+
+#Skincare-Products > a {
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold;
+  color: #0f3062;
+  padding: 10px;
+  margin-bottom: 0;
+  margin-top: auto;
+  margin-left: 8%;
+}
+#Skin-Type > h4 {
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold;
+  color: #0f3062;
+  padding: 5px;
+  margin-bottom: 0;
+  margin-top: auto;
+  margin-left: 8%;
+}
+
+#Skin-Type > a {
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold;
+  color: #0f3062;
+  padding: 10px;
+  margin-bottom: 0;
+  margin-top: auto;
+  margin-left: 8%;
+}
+
+#Skincare-Products {
+  display: flex;
+  flex-direction: column;
+}
+
+#Skin-Type {
+  display: flex;
+  flex-direction: column;
+}
+
+.image3 {
+  display: flex;
+  justify-content: space-evenly;
+  height: 200px;
+  width: 350px;
+  border: 5px #fdf2e9;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.image4 {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 400px;
+  height: 200px;
+  border: 5px #fdf2e9;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.image5 {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 400px;
+  height: 200px;
+  border: 5px #fdf2e9;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.image6 {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 400px;
+  height: 200px;
+  border: 5px #fdf2e9;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #fdf2e9;
+  text-align: left;
+  padding: 0 30px;
+  margin-top:100px;
+  width:100%;
+  height:60px;
+}
